@@ -1,0 +1,30 @@
+{
+  "name": "drogi-nieoczywiste-build",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tinacms dev -c \"hugo server -D\"",
+    "build": "tinacms build && hugo",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RafalGasinski/drogi-nieoczywiste-build.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/RafalGasinski/drogi-nieoczywiste-build/issues"
+  },
+  "homepage": "https://github.com/RafalGasinski/drogi-nieoczywiste-build#readme",
+  "description": "",
+  "dependencies": {
+    "tinacms": "^2.7.6"
+  },
+  "devDependencies": {
+    "@tinacms/cli": "^1.9.6",
+    "@types/node": "^22.15.17"
+  }
+}
