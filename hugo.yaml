@@ -13,7 +13,11 @@ googleAnalytics: UA-123-45
 
 minify:
   disableXML: true
-  minifyOutput: true
+  minifyOutput: false
+
+security:
+  gotemplates:
+    allowActionJSTmpl: true
 
 outputs:
   home:
