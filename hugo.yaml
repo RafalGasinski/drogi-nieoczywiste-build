@@ -1,4 +1,5 @@
 baseURL: "http://rafalgasinski.github.io/drogi-nieoczywiste/"
+defaultContentLanguage: pl
 title: Drogi Nieoczywiste
 theme: PaperMod
 pagination:
