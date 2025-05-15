@@ -30,7 +30,7 @@ params:
   title: Drogi Nieoczywiste
   description: "Drogi Nieoczywiste"
   keywords: [Blog, Portfolio, PaperMod]
-  author: Me
+  author: RG
   DateFormat: "January 2, 2006"
   defaultTheme: dark
   disableThemeToggle: false
@@ -38,7 +38,7 @@ params:
   ShowReadingTime: true
   ShowShareButtons: true
   ShowPostNavLinks: true
-  ShowBreadCrumbs: true
+  ShowBreadCrumbs: false
   ShowCodeCopyButtons: false
   disableSpecial1stPost: false
   disableScrollToTop: false
@@ -51,14 +51,9 @@ params:
   assets:
     disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>" # e.g. "favicon.ico"
-    favicon16x16: "<link / abs url>" # e.g. "favicon-16x16.png"
-    favicon32x32: "<link / abs url>" # e.g. "favicon-32x32.png"
-    apple_touch_icon: "<link / abs url>" # e.g. "apple-touch-icon.png"
-    safari_pinned_tab: "<link / abs url>" # e.g. "favicon-32x32.png"
 
   label:
-      text: "Home"
+      text: "Strona główna"
       icon: /apple-touch-icon.png
       iconHeight: 35
 
@@ -72,23 +67,16 @@ params:
     imageHeight: 120
     imageTitle: my image
     buttons:
-      - name: Posts
-        url: posts
-      - name: Tags
-        url: tags
+      - name: Posty
+        url: posty
 
   # home-info mode
   homeInfoParams:
-    Title: "Hi there \U0001F44B"
-    Content: Welcome to my blog
-
+    Title: "Drogi nieoczywiste \U0001F3DE"
+    Content: Jedź własnymi ścieżkami
   socialIcons:
-    - name: twitter
-      url: "https://twitter.com/"
-    - name: stackoverflow
-      url: "https://stackoverflow.com"
-    - name: github
-      url: "https://github.com/"
+    - name: instagram
+      url: "https://instagram.com/"
 
   analytics:
     google:
@@ -103,11 +91,6 @@ params:
     hiddenInList: true # hide on list pages and home
     hiddenInSingle: true # hide on single page
 
-  editPost:
-      URL: "https://github.com/RafalGasinski/drogi-nieoczywiste-build/content"
-      Text: "Suggest Changes" # edit text
-      appendFilePath: true # to append file path to Edit link
-
   # for search
   # https://fusejs.io/api/options.html
   fuseOpts:
@@ -120,17 +103,17 @@ params:
       keys: ["title", "permalink", "summary", "content"]
 menu:
     main:
-        - identifier: categories
-          name: categories
-          url: /categories/
+        - identifier: posty
+          name: posty
+          url: /posts/
           weight: 10
-        - identifier: tags
-          name: tags
-          url: /tags/
-          weight: 20
-        - identifier: example
-          name: example.org
-          url: https://example.org
+        - identifier: zdjęcia
+          name: zdjęcia
+          url: https://www.icloud.com/photos/#/sharedalbums/
+          weight: 10
+        - identifier: mapa
+          name: mapa
+          url: https://www.google.com/maps/d/edit?mid=1SNt_gcj479aemPbpdQ3e3aUfJmzmbao&ll=47.62240390093096%2C19.569441499999982&z=7
           weight: 30
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: false
