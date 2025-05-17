@@ -18,10 +18,11 @@ export default defineConfig({
   build: {
     outputFolder: "admin",
     publicFolder: "static",
+    basePath: "drogi-nieoczywiste"
   },
   media: {
     tina: {
-      mediaRoot: "",
+      mediaRoot: "drogi-nieoczywiste",
       publicFolder: "static",
     },
   },

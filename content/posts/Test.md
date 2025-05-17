@@ -1,5 +1,7 @@
 ---
-title: Test
+title: 28.05.2025 Północne Bałkany
 ---
 
-Test
+Północne Bałkany Trip!
+
+![](/drogi-nieoczywiste/IMG_0570.JPEG)![](/drogi-nieoczywiste/IMG_0573.JPEG)
