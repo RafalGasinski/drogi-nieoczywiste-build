@@ -20,4 +20,5 @@ msg="Deployed site: $current"
 git commit -m "$msg"
 
 # Push source and deploy. 
+git pull --rebase
 git push origin main
