@@ -19,6 +19,5 @@ current="`date +'%Y-%m-%d %H:%M:%S'`"
 msg="Deployed site: $current"
 git commit -m "$msg"
 
-# Push source and deploy. 
-git pull --rebase
+# Push source and deploy.
 git push origin main
